@@ -1,3 +1,66 @@
+.top-container,
+.footer {
+    background-color: #1f2937;
+}
+
+.content-title,
+.header a,
+.header .logo,
+.footer {
+    color: #f9faf8;
+}
+
+.content-title,
+.info-header {
+    font-weight: 900;
+}
+
+
+.content-title {
+    font-size: 48px;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
 .main-image {
     width: 100px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.subtext {
+    font-weight: 18px;
+}
+
+.header .subtext {
+    color: #E5e7eb;
+}
+
+.sub-container,
+button {
+    background-color: #3882f6;
+}
+
+.info-header,
+.quote-text {
+    font-size: 36px;
+}
+
+.info-header {
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 300;
+    font-style: italic;
+    color: #1f2937;
+
 }
