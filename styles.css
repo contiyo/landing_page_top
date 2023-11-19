@@ -1,6 +1,7 @@
 .top-container,
 .footer {
     background-color: #1f2937;
+    padding: 0 250px;
 }
 
 .content-title,
@@ -63,4 +64,36 @@ button {
     font-style: italic;
     color: #1f2937;
 
+}
+
+.header,
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-right: auto;
+    flex-shrink: 0;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.content-title {
+    width: 320px;
 }
