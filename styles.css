@@ -8,6 +8,7 @@
 .header-content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .main-image {
@@ -85,6 +86,7 @@ a {
 
 .skill-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
 }
