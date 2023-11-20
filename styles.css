@@ -102,3 +102,53 @@ a {
 .quoted-by {
     text-align: right;
 }
+
+.last-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+}
+
+.highlight-container {
+    display: flex;
+    width: 1660px;
+    height: 120px;
+    justify-content: space-around;
+}
+
+.highlight-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button2 {
+    height: 30px;
+    width: 100px;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
