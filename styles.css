@@ -1,99 +1,104 @@
-.top-container,
-.footer {
-    background-color: #1f2937;
-    padding: 0 250px;
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    padding: 20px 0;
 }
 
-.content-title,
-.header a,
-.header .logo,
-.footer {
-    color: #f9faf8;
-}
-
-.content-title,
-.info-header {
-    font-weight: 900;
-}
-
-
-.content-title {
-    font-size: 48px;
-}
-
-.header .logo {
-    font-size: 24px;
+.header-content {
+    display: flex;
+    justify-content: space-around;
 }
 
 .main-image {
-    width: 100px;
+    width: 600px;
+    /* I know it's wrong and image is distorted, I just wanted 
+    to make the website into a single page without the need of 
+    scrolling! */
+    height: 300px;
 }
+
+.top-container {
+    background-color: #1f2937;
+}
+
 
 div {
-    border: 1px solid red;
-}
-
-.subtext {
-    font-weight: 18px;
-}
-
-.header .subtext {
-    color: #E5e7eb;
-}
-
-.sub-container,
-button {
-    background-color: #3882f6;
-}
-
-.info-header,
-.quote-text {
-    font-size: 36px;
-}
-
-.info-header {
-    color: #1f2937;
-}
-
-.quote-container {
-    background-color: #e5e7eb;
-}
-
-.quote-text {
-    font-size: 300;
-    font-style: italic;
-    color: #1f2937;
-
-}
-
-.header,
-.header .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px;
+    border: 2px solid red;
 }
 
 .header-list {
     display: flex;
+    gap: 8px;
+    width: 600px;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+li {
     list-style-type: none;
-    gap: 10px;
-    margin-left: auto;
-    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
 }
 
 .logo {
-    margin-right: auto;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    gap: 10px;
 }
 
-.content-title {
-    width: 320px;
+.button1 {
+    align-self: flex-start;
+}
+
+.information {
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.skill-image {
+    width: 150px;
+    height: auto;
+
+}
+
+.skill-context {
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.quote,
+.quoted-by {
+    width: 600px;
+}
+
+.quoted-by {
+    text-align: right;
 }
