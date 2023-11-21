@@ -24,11 +24,6 @@
     background-color: #1f2937;
 }
 
-
-div {
-    /* border: 1px solid black; */
-}
-
 .header-list {
     display: flex;
     gap: 28px;
@@ -202,12 +197,6 @@ button {
     border-color: white;
 }
 
-.top-container,
-.second-container,
-.third-container,
-.last-container {
-    /* border: 0.5px solid grey; */
-}
 
 .second-container {
     /* height: 350px; */
